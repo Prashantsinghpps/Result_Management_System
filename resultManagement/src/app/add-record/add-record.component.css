@@ -1,0 +1,13 @@
+.container{
+    width: 87%;
+    margin-left: 417px;
+    margin-top: 70px;
+}
+.clearButton{
+    margin-left: 60px;
+    padding: 7px;
+    width: 93px;
+    border: 0px;
+    border-radius: 12px;
+    margin-top: 3px;
+}

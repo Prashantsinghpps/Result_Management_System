@@ -1,0 +1,46 @@
+{
+  "restaurant": [
+    {
+      "rollNumber": 15,
+      "name": "vikrant",
+      "dateOfBirth": "2023-04-11",
+      "score": 48,
+      "id": 12
+    },
+    {
+      "rollNumber": 19,
+      "name": "pps",
+      "dateOfBirth": "2023-05-11",
+      "score": 49,
+      "id": 13
+    },
+    {
+      "rollNumber": 122,
+      "name": "nps",
+      "dateOfBirth": "2023-05-05",
+      "score": 15,
+      "id": 17
+    },
+    {
+      "rollNumber": 24,
+      "name": "Ashmita",
+      "dateOfBirth": "2023-05-26",
+      "score": 32,
+      "id": 18
+    },
+    {
+      "rollNumber": 29,
+      "name": "Abhishek",
+      "dateOfBirth": "2023-05-31",
+      "score": 29,
+      "id": 19
+    },
+    {
+      "rollNumber": 23,
+      "name": "Naitik",
+      "dateOfBirth": "2011-10-25",
+      "score": 45,
+      "id": 20
+    }
+  ]
+}

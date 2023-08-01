@@ -1,0 +1,25 @@
+<button class="btn btn-primary" routerLink="../addRecord">addRecord
+</button>
+<table class="table table-bordered " >
+    <thead>
+      <tr>
+        <th scope="col">Roll Number</th>
+        <th scope="col">Name</th>
+        <th scope="col">Date Of Birth</th>
+        <th scope="col">Score</th>
+        <th>delete</th>
+        <th>edit</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of collection">
+       <tr>
+        <td>{{item.rollNumber}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.dateOfBirth}}</td>
+        <td>{{item.score}}</td>
+        <td><i (click)="deletedata(item.id)" class="fa fa-trash" aria-hidden="true"></i></td>
+        <td><i routerLink="/update/{{item.id}}" class='fa fa-edit' aria-hidden="true"></i></td>
+
+       </tr>
+    </tbody>
+  </table>
